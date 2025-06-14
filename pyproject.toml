@@ -3,7 +3,7 @@ name = "mcp-coding-tool"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "langchain>=0.3.25",
     "langchain-mcp-adapters>=0.1.7",
@@ -18,7 +18,7 @@ dependencies = [
 
 [tool.ruff]
 line-length = 120
-target-version = "py313"
+target-version = "py312"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
