@@ -137,7 +137,8 @@ Create or update your `mcp.json` file in your Cursor settings directory with the
       "args": [
         "path/to/your/directory/src/coding_agent/server_for_cursor.py"
       ],
-      "transport": "stdio"
+      "transport": "http",
+      "url": "http://localhost:8092"
     }
   }
 }
